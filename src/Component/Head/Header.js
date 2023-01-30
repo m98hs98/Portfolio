@@ -6,13 +6,13 @@ const Header = () => {
 
         // when scroll header at top 
     window.addEventListener("scroll", function() {
-        const header = document.querySelector(".header")
+        const header = document.querySelector(".header");
         header.classList.toggle("active", window.scrollY > 100)
-    })
+    });
 
 
     //toggle menu
-    const [Mobile, setMobile] = useState(false)
+    const [Mobile, setMobile] = useState(false);
 
   return (
     <>
@@ -42,7 +42,7 @@ const Header = () => {
         </header>
 
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

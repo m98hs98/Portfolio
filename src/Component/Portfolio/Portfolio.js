@@ -1,13 +1,13 @@
-import React from 'react'
-import Portfolio_data from './Portfolio_data'
-import Card from './Card'
-import './Portfolio.css'
+import React from 'react';
+import Portfolio_data from './Portfolio_data';
+import Card from './Card';
+import './Portfolio.css';
 
 
 const Portfolio = () => {
   return (
     <>
-        <section className='Portfolio top' id='portfolio'>
+        <section className='portfolio top' id='portfolio'>
             <div className='container'>
                 <div className='heading text-center '>
                     <h4>VISIT MY PROJECTS</h4>
@@ -15,15 +15,15 @@ const Portfolio = () => {
                 </div>
 
                 <div className='content grid'>
-                    {Portfolio_data.map((value, index) => {
-                        return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
-                    })}
+                    {Portfolio_data.map((val, index) => {
+                        return <Card key={index} image={val.image} category={val.category} totalLike={val.totalLike} title={val.title} />
+                    })};
                 </div>
             </div>
         </section>
 
     </>
-  )
-}
+  );
+};
 
 export default Portfolio

@@ -52,19 +52,21 @@ const Contact = () => {
                             <div className='img'>
                                 <img src={contact1} alt='' />
                             </div>
-                            <div className='details'>
-                                <h1>Mahsa Haddadi</h1>
-                                <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                                <br />
-                                <p>Phone: +61402331984</p>
-                                <p>Email: mahsahaddadi19@gmail.com</p>
-                                <br />
-                                {/* <span>FIND WITH ME</span>
-                                <div className='button f_flex'>
-                                    <button className='btn_shadow'>
-                                        <i className='fab fa-facebook-f'></i>
-                                    </button>
-                                </div> */}
+                            <div className='ui container'>
+                                    <div className='details'>
+                                        <h1>Mahsa Haddadi</h1>
+                                        <p>I am available for freelance work. Connect with me via and call in to my account.</p>
+                                        <br />
+                                        <p>Phone: +61402331984</p>
+                                        <p>Email: mahsahaddadi19@gmail.com</p>
+                                        <br />
+                                        {/* <span>FIND WITH ME</span>
+                                        <div className='button f_flex'>
+                                            <button className='btn_shadow'>
+                                                <i className='fab fa-facebook-f'></i>
+                                            </button>
+                                        </div> */}
+                                    </div>
                             </div>
                         </div>
                     </div>

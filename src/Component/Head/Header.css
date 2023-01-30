@@ -1,5 +1,5 @@
 header {
-    height: 10vh;
+    height: 5vh;
     line-height: 10vh;
 }
 
@@ -50,14 +50,14 @@ header ul li a:hover {
 }
 
 .header.active {
-    height: 12vh;
+    height: 13vh;
     position: fixed;
     top: 0;
     z-index: 1000;
     width: 100%;
     background-color: #ecf0f3;
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
-    transition: 00.5s;
+    transition: 0.5s;
 }
 
 @media (max-width: 768px) {
@@ -109,7 +109,4 @@ header ul li a:hover {
     .header.active {
         height: 10vh;
     }
-}
-.demo {
-    height: 200vh;
 }

@@ -4,10 +4,11 @@ import "./Home.css"
 // import HTML5 from "../Pic/HTML5.png"
 // import CSS3 from "../Pic/CSS3.png"
 // import Bootstrap from "../Pic/Bootstrap.png"
+// import Git from "../Pic/Git.png"
 import JavaScript from "../Pic/JavaScript.png"
 import React2 from "../Pic/React2.png"
 import Azure from "../Pic/Azure.png"
-// import Git from "../Pic/Git.png"
+
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -23,8 +24,7 @@ const Home = () => {
                     </h1>
                     <h2>
                         a <span>
-                         Web Developer & Cloud Engineer
-                            {/* <Typewriter words={[' Web Developer. ', ' Cloud Engineer ']} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={200} /> */}
+                            <Typewriter words={['Web Developer.']} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
                         </span>
                     </h2>
 

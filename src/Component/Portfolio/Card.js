@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 
 const Card = (props) => {
     const [modal, setModal] = useState(false)
@@ -68,7 +69,7 @@ const Card = (props) => {
             </div>
         )}
     </>
-  )
-}
+  );
+};
 
 export default Card
