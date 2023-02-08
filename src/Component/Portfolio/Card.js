@@ -60,7 +60,7 @@ const Card = (props) => {
                                 VIEW PROJECT <i className='fas fa-chevron-right'></i>
                             </button>
                         </div>
-                        <button className='close-modal btn_shadow' conClick={toggleModal}>
+                        <button className='close-modal btn_shadow' onClick={toggleModal}>
                             <i className='fas fa-times'></i>
                         </button>
                     </div>

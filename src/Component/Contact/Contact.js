@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import './Contact.css'
-import contact1 from '../Pic/contact1.png'
+import React, { useState } from 'react';
+import './Contact.css';
+import contact1 from '../Pic/contact1.png';
 
 const Contact = () => {
 
@@ -10,11 +10,11 @@ const Contact = () => {
         email:'',
         subject: '',
         message: '',
-    })
+    });
 
 
     const InputEvent = (event) => {
-        const { name, value } = event.target
+        const { name, value } = event.target;
 
         setData((preVal) => {
             return {
@@ -22,19 +22,19 @@ const Contact = () => {
                 [name]: value,
 
             }
-        })
-    }
+        });
+    };
 
     const formSubmit = (event) => {
-        event.preventDefault()
+        event.preventDefault();
         alert(
             `My name is ${data.fullname}.
             My phone number is ${data.phone}.
             My email address is ${data.email}.
             My Subject on ${data.subject}.
             Here is my message I want to say: ${data.message}.`
-        )
-    }
+        );
+    };
 
 
   return (
@@ -47,27 +47,29 @@ const Contact = () => {
                 </div>
 
                 <div className='content d_flex'>
-                    <div className='left'>
+                    <div className='left box_shodow'>
                         <div className='box box_shadow'>
                             <div className='img'>
                                 <img src={contact1} alt='' />
                             </div>
-                            <div className='ui container'>
-                                    <div className='details'>
-                                        <h1>Mahsa Haddadi</h1>
-                                        <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                                        <br />
-                                        <p>Phone: +61402331984</p>
-                                        <p>Email: mahsahaddadi19@gmail.com</p>
-                                        <br />
-                                        {/* <span>FIND WITH ME</span>
-                                        <div className='button f_flex'>
-                                            <button className='btn_shadow'>
-                                                <i className='fab fa-facebook-f'></i>
-                                            </button>
-                                        </div> */}
-                                    </div>
+                            
+                            <div className='details'>
+                                <br />
+                                <br />
+                                <h1>Mahsa Haddadi</h1>
+                                <p>I am available for freelance work. Connect with me via and call in to my account.</p>
+                                <br />
+                                <p>Phone: +61402331984</p>
+                                <p>Email: mahsahaddadi19@gmail.com</p>
+                                <br />
+                                {/* <span>FIND WITH ME</span>
+                                <div className='button f_flex'>
+                                    <button className='btn_shadow'>
+                                        <i className='fab fa-facebook-f'></i>
+                                    </button>
+                                </div> */}
                             </div>
+                            
                         </div>
                     </div>
 
@@ -80,7 +82,7 @@ const Contact = () => {
                                 </div>
                                 <div className='input row'>
                                     <span>PHONE NUMBER</span>
-                                    <input type='number' name='phone' value={data.phone} onChange={InputEvent} />
+                                    <input type='phone' name='phone' value={data.phone} onChange={InputEvent} />
                                 </div>
                             </div>
                             <div className='input'>
@@ -104,7 +106,7 @@ const Contact = () => {
             </div>
         </section>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

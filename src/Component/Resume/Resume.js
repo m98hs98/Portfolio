@@ -1,7 +1,7 @@
-import React from "react"
-import "./Resume.css"
-import ResumeApi from "./ResumeApi"
-import Card from "./Card"
+import React from "react";
+import "./Resume.css";
+import ResumeApi from "./ResumeApi";
+import Card from "./Card";
 
 const Resume = () => {
   return (
@@ -16,7 +16,7 @@ const Resume = () => {
           <div className='content-section mtop d_flex'>
             <div className='left'>
               <div className='heading'>
-                <h4>2008-2022</h4>
+                <h4>2008-2023</h4>
                 <h1>Education</h1>
               </div>
 
@@ -44,7 +44,7 @@ const Resume = () => {
             </div>
             <div className='left'>
               <div className='heading'>
-                <h4>2012-2022</h4>
+                <h4>2012-2023</h4>
                 <h1>Job Experience</h1>
               </div>
 

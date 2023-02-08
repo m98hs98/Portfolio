@@ -1,39 +1,39 @@
-.Portfolio {
+.portfolio {
     position: relative;
   }
-  .Portfolio .box {
+  .portfolio .box {
     border-radius: 10px;
     position: relative;
   }
-  .Portfolio .box:hover {
+  .portfolio .box:hover {
     background: none;
-    transform: translateY(-0);
+    transform: translateY(0);
   }
   
-  .Portfolio .img {
+  .portfolio .img {
     height: 300px;
     overflow: hidden;
     transition: 0.5s;
   }
-  .Portfolio img {
+  .portfolio img {
     width: 100%;
     border-radius: 10px;
     transition: 0.5s;
   }
-  .Portfolio .box .img:hover img {
+  .portfolio .box .img:hover img {
     transform: scale(1.2);
   }
-  .Portfolio .category {
+  .portfolio .category {
     margin: 20px 0 30px 0;
     text-transform: uppercase;
   }
-  .Portfolio .category span {
+  .portfolio .category span {
     color: #ff014f;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
   }
-  .Portfolio .arrow {
+  .portfolio .arrow {
     position: absolute;
     right: 30px;
     bottom: 11%;
@@ -42,21 +42,21 @@
     opacity: 0;
     transition: 0.5s;
   }
-  .Portfolio .title:hover .arrow {
+  .portfolio .title:hover .arrow {
     opacity: 1;
   }
-  .Portfolio h2 {
+  .portfolio h2 {
     font-size: 18px;
     transition: 0.5s;
     padding-bottom: 30px;
   }
-  .Portfolio .box:hover h2 {
+  .portfolio .box:hover h2 {
     color: #ff014f;
   }
-  .Portfolio .box:hover {
+  .portfolio .box:hover {
     color: black;
   }
-  .Portfolio label i {
+  .portfolio label i {
     margin-right: 10px;
   }
 
@@ -97,7 +97,7 @@
     max-width: 85%;
     min-width: 60%;
     z-index: 9999;
-    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
     padding: 50px;
     border-radius: 10px;
   }
