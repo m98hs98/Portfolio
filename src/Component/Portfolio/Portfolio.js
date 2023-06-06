@@ -17,7 +17,7 @@ const Portfolio = () => {
                 <div className='content grid'>
                     {Portfolio_data.map((val, index) => {
                         return <Card key={index} image={val.image} category={val.category} totalLike={val.totalLike} title={val.title} />
-                    })};
+                    })}
                 </div>
             </div>
         </section>
@@ -26,4 +26,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio
+export default Portfolio;
